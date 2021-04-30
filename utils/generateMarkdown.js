@@ -19,26 +19,34 @@ function generateMarkdown(data)
 `# ${data.title}\n
 ${data.projectDescription}\n
 ## ${TOC}
-## Installation Instructions
+## Installation Instructions <a name="installation"></a>
 ${data.instructions}
-## 
+## Usage Information <a name="usage"></a>
+${data.usage}
+## Constribution Guidelines <a name="contributing"></a>
+${data.contribution}
+## Testing Instructions <a name="tests"></a>
+${data.testing}
+## Questions <a name="questions"></a>
+My Github profile can be found [here](https://github.com/${data.github}). 
+You can reach me at: ${data.email}
 `.trim();
 
     return content;
 }
 
-module.exports = generateMarkdown;
-
 function generateTableofContents()
 {
     let TOC =
-`Table of Contents\n
-[Installation](#installation)\n
-[Usage](#usage)\n
-[License](#license)\n
-[Contributing](#contributing)\n
-[Tests](#tests)\n
-[Questions](#questions)\n`;
+`* Table of Contents\n
+* [Installation](#installation)\n
+* [Usage](#usage)\n
+* [License](#license)\n
+* [Contributing Guidelines](#contributing)\n
+* [Testing Instructions](#tests)\n
+* [Questions](#questions)\n`;
     return TOC.trim();
 
 }
+
+module.exports = generateMarkdown;
