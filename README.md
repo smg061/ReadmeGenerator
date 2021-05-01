@@ -18,7 +18,7 @@ This is a node package that makes use of inquirer to generate a command line uti
 
 * [Questions](#questions)
 
-* [License] (#license)
+* [License](#license)
 ## Installation Instructions <a name="installation"></a>
 Clone the github repository and use npm install package.json to install the necessary dependencies
 
