@@ -1,57 +1,39 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-const licenses = [
-    "None",
-    "Apache License 2.0",
-    "MIT license", 
-    "GNU General Public License v3.0",
-];
 
+// import the license object
+const {licenses} = require('./licenses');
+
+// return the appropiate badge from the licenses object by searching through the license name
 function renderLicenseBadge(license) 
 {
-     
-    if(license == "None") 
+    for (let licenseObj of licenses) 
+    {
+        if (licenseObj.type == license) 
+        {
+            return licenseObj.badge;
+        }
+    }
+}
+
+// return the appropriate license link
+// If there is no license, return an empty string
+function renderLicenseSection(license, user) 
+{
+    if (license == "None") 
     {
         return "";
     }
 
-    else if (license == licenses[1])
+    for (let licenseObj of licenses) 
     {
-        return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        if (licenseObj.type == license && licenseObj.type != "None") 
+        {
+            // return the license text with the plaeholder replaced with the github username
+            return licenseObj.licenseText.replace("<COPYRIGHT HOLDER>", user);
+        }
     }
-
-    else if(license == licenses[2])
-    { 
-        return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-    }
-
-    else if (license == licenses[3]) 
-    {
-
-        return " [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)"
-    }
-
 }
 
-function renderLicenseLink(license) 
-{
-
-
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) 
-{
-
-
-}
-
-// TODO: Create a function to generate markdown for README
+// generate markdown file
 function generateMarkdown(data)
  {
     let badge = renderLicenseBadge(data.license);
@@ -74,7 +56,10 @@ My Github profile can be found [here](https://github.com/${data.github}).
 You can reach me at: ${data.email}
 `.trim();
 
-    return content;
+    let licenseSectionContent = renderLicenseSection(data.license, data.github)
+    let licenseSection = `\n## License <a name="license"></a>\n ${licenseSectionContent}`;
+    let appendedContent = content.concat(licenseSection);
+    return appendedContent;
 }
 
 function generateTableofContents()
@@ -86,9 +71,10 @@ function generateTableofContents()
 * [License](#license)\n
 * [Contributing Guidelines](#contributing)\n
 * [Testing Instructions](#tests)\n
-* [Questions](#questions)\n`;
-    return TOC.trim();
+* [Questions](#questions)\n
+* [License] (#license)\n`;
 
+    return TOC.trim();
 }
 
 module.exports = generateMarkdown;
