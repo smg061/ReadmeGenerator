@@ -8,7 +8,8 @@ const licenses = [
     {
         type: "Apache License 2.0",
         badge: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-        licenseText: `Copyright 2021 <COPYRIGHT HOLDER>
+        licenseText: 
+        `Copyright 2021 <COPYRIGHT HOLDER>
 
         Licensed under the Apache License, Version 2.0 (the "License");
         you may not use this file except in compliance with the License.
@@ -37,7 +38,8 @@ const licenses = [
     {
         type: "GNU General Public License v3.0",
         badge: "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)",
-        licenseText: `Copyright (C) 2021  <COPYRIGHT HOLDER>
+        licenseText: `
+        Copyright (C) 2021  <COPYRIGHT HOLDER>
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
         the Free Software Foundation, either version 3 of the License, or
@@ -54,7 +56,8 @@ const licenses = [
     {
         type: "GNU Affero General Public License v3.0",
         badge: "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)",
-        licenseText: `Copyright (C) 2021  <COPYRIGHT HOLDER>
+        licenseText: `
+        Copyright (C) 2021  <COPYRIGHT HOLDER>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU Affero General Public License as published
@@ -72,13 +75,15 @@ const licenses = [
     {
         type: "Creative Commons",
         badge: "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
-        licenseText: `The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+        licenseText: `
+        The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
         You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.`
     },
     {
         type: "Unlicense",
         badge: " [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
-        licenseText: `This is free and unencumbered software released into the public domain.
+        licenseText: `
+        This is free and unencumbered software released into the public domain.
 
         Anyone is free to copy, modify, publish, use, compile, sell, or
         distribute this software, either in source code form or as a compiled
@@ -106,9 +111,11 @@ const licenses = [
     {
         type: "Mozilla Public License",
         badge: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
-        licenseText: `This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.`
+        licenseText: `
+        This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file,You can obtain one at https://mozilla.org/MPL/2.0/.`
     },
 
 ];
 
+// export the object 
 module.exports.licenses = licenses;

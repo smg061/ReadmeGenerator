@@ -36,8 +36,12 @@ function renderLicenseSection(license, user)
 // generate markdown file
 function generateMarkdown(data)
  {
+     // generate the document's badge, TOC, and license section
     let badge = renderLicenseBadge(data.license);
     let TOC = generateTableofContents();
+    let licenseSectionContent = renderLicenseSection(data.license, data.github)
+
+    // concatenate all the answers into a string
     let content = 
 `# ${data.title}\n
 ${badge}\n
@@ -54,12 +58,10 @@ ${data.testing}
 ## Questions <a name="questions"></a>
 My Github profile can be found [here](https://github.com/${data.github}). 
 You can reach me at: ${data.email}
+## License <a name="license"></a>\n ${licenseSectionContent}
 `.trim();
 
-    let licenseSectionContent = renderLicenseSection(data.license, data.github)
-    let licenseSection = `\n## License <a name="license"></a>\n ${licenseSectionContent}`;
-    let appendedContent = content.concat(licenseSection);
-    return appendedContent;
+    return content;
 }
 
 function generateTableofContents()
@@ -72,7 +74,7 @@ function generateTableofContents()
 * [Contributing Guidelines](#contributing)\n
 * [Testing Instructions](#tests)\n
 * [Questions](#questions)\n
-* [License] (#license)\n`;
+* [License](#license)\n`;
 
     return TOC.trim();
 }

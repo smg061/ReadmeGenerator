@@ -1,8 +1,8 @@
-# Good Readme Generator
+# ad
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+ [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-This is a node package that makes use of inquirer to generate a command line utility that generates quality readme.md files for any project. 
+sdsd
 
 ## Table of Contents
 
@@ -18,33 +18,44 @@ This is a node package that makes use of inquirer to generate a command line uti
 
 * [Questions](#questions)
 
-* [License] (#license)
+* [License](#license)
 ## Installation Instructions <a name="installation"></a>
-Clone the github repository and use npm install package.json to install the necessary dependencies
+sdsds
 
 ## Usage Information <a name="usage"></a>
-This project is free and open to use and modify for anyone that requires it
+sdsd
 
 ## Constribution Guidelines <a name="contributing"></a>
-Before contributing to this project, please contact me
+sdsd
 
 ## Testing Instructions <a name="tests"></a>
-There are no testing protocols developed for this project yet
+sdsd
 ## Questions <a name="questions"></a>
 My Github profile can be found [here](https://github.com/smg061). 
-You can reach me at: max.go.95@gmail.com
+You can reach me at: max.fgo.93gmail.com
 ## License <a name="license"></a>
- Copyright (C) 2020  smg061
+ 
+        This is free and unencumbered software released into the public domain.
 
-        This program is free software: you can redistribute it and/or modify
-        it under the terms of the GNU Affero General Public License as published
-        by the Free Software Foundation, either version 3 of the License, or
-        (at your option) any later version.
-    
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU Affero General Public License for more details.
-    
-        You should have received a copy of the GNU Affero General Public License
-        along with this program.  If not, see <https://www.gnu.org/licenses/>.
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any
+        means.
+        
+        In jurisdictions that recognize copyright laws, the author or authors
+        of this software dedicate any and all copyright interest in the
+        software to the public domain. We make this dedication for the benefit
+        of the public at large and to the detriment of our heirs and
+        successors. We intend this dedication to be an overt act of
+        relinquishment in perpetuity of all present and future rights to this
+        software under copyright law.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+        OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+        
+        For more information, please refer to <http://unlicense.org/>
