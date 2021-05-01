@@ -18,22 +18,40 @@ This is a node package that makes use of inquirer to generate a command line uti
 
 * [Questions](#questions)
 
-* [License] (#license)
+* [License](#license)
+
+
+
+
 ## Installation Instructions <a name="installation"></a>
+
+
 Clone the github repository and use npm install package.json to install the necessary dependencies
 
 ## Usage Information <a name="usage"></a>
+
+
 This project is free and open to use and modify for anyone that requires it
 
 ## Constribution Guidelines <a name="contributing"></a>
+
+
 Before contributing to this project, please contact me
 
 ## Testing Instructions <a name="tests"></a>
+
+
 There are no testing protocols developed for this project yet
 ## Questions <a name="questions"></a>
+
+
 My Github profile can be found [here](https://github.com/smg061). 
+
+
 You can reach me at: max.go.95@gmail.com
 ## License <a name="license"></a>
+
+
  Copyright (C) 2020  smg061
 
         This program is free software: you can redistribute it and/or modify
