@@ -32,7 +32,7 @@ Clone the github repository and use ```npm install package.json``` to install th
 
 This project is free and open to use and modify for anyone that requires it
 
-After cloning the directory and installing the dependencies, use ```node index.js``` to run the package. 
+After cloning the directory and installing the dependencies, use  ```node index.js```  to run the package. 
 You will be prompted to answer several questions about the project you want to use this for:
 
 ![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegeninit.jpg?raw=true)
@@ -41,7 +41,7 @@ After responding to some questions, you will be prompted to select a license. Ch
 
 ![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegenlicense.jpg?raw=true)
 
-After going through all the questions ```Successfully generated readme.md ``` should be shown in the terminal. The custom readme file generated from the responses will be saved at ```/generated_readmes/readme.md```
+After going through all the questions ```Successfully generated readme.md```  should be shown in the terminal. The custom readme file generated from the responses will be saved at ```/generated_readmes/readme.md```
 
 ![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegen_alldone.jpg?raw=true)
 
