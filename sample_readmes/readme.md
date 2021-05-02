@@ -19,9 +19,11 @@ sdsd
 * [Questions](#questions)
 
 * [License](#license)
+
+---
+
 ## Installation Instructions <a name="installation"></a>
 sdsds
----
 
 ## Usage Information <a name="usage"></a>
 sdsd
