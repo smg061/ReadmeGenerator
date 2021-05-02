@@ -41,8 +41,9 @@ After responding to some questions, you will be prompted to select a license. Ch
 
 ![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegenlicense.jpg?raw=true)
 
-After going through all the questions, a custom readme file generated from the responses will be saved at ```/generated_readmes/readme.md```
+After going through all the questions ```Successfully generated readme.md ``` should be shown in the terminal. The custom readme file generated from the responses will be saved at ```/generated_readmes/readme.md```
 
+![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegen_alldone.jpg?raw=true)
 
 A video guide that explains the installation and usage is provided below:
 
