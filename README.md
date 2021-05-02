@@ -10,7 +10,6 @@ This is a node package that makes use of inquirer to generate a command line uti
 
 * [Usage](#usage)
 
-* [License](#license)
 
 * [Contributing Guidelines](#contributing)
 
