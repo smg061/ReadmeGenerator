@@ -1,16 +1,14 @@
-# chotto
+# Good Readme Generator 
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-matte
+ This project uses inquirer to generater professional-looking readme files for any project
 
 ## Table of Contents
 
 * [Installation](#installation)
 
 * [Usage](#usage)
-
-* [License](#license)
 
 * [Contributing Guidelines](#contributing)
 
@@ -20,20 +18,24 @@ matte
 
 * [License](#license)
 ## Installation Instructions <a name="installation"></a>
-kudasee
+Clone the github repository and use npm install package.json to install the required depedencies
 
 ## Usage Information <a name="usage"></a>
-no
+Navigate to the repository's directory and use node to run index.js. A readme.md file based on your responses will be generated and saved onto the sample_readmes folder
 
 ## Constribution Guidelines <a name="contributing"></a>
-don't \
+Before contributing, please contact me 
 
 ## Testing Instructions <a name="tests"></a>
-use it!
+This program does not have any testing protocols at the moment
 ## Questions <a name="questions"></a>
 My Github profile can be found [here](https://github.com/smg061). 
 You can reach me at: max.go.95@gmail.com
 ## License <a name="license"></a>
- 
-        The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
-        You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
+ Copyright 2021 smg061
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
