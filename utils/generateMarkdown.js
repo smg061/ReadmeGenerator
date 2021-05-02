@@ -46,7 +46,7 @@ function generateMarkdown(data)
 `# ${data.title}\n
 ${badge}\n
 ${data.projectDescription}\n
-## ${TOC}
+## ${TOC}\n
 ## Installation Instructions <a name="installation"></a>
 ${data.instructions}\n
 ## Usage Information <a name="usage"></a>
