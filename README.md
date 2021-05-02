@@ -36,9 +36,16 @@ This project is free and open to use and modify for anyone that requires it
 After cloning the directory and installing the dependencies, use ```node index.js``` to run the package. 
 You will be prompted to answer several questions about the project you want to use this for:
 
-![img]()
+![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegeninit.jpg?raw=true)
 
-A video guide that explains the installation and usage can is provided below:
+After responding to some questions, you will be prompted to select a license. Choose in accordance to your project.
+
+![img](https://github.com/smg061/ReadmeGenerator/blob/main/img/readmegenlicense.jpg?raw=true)
+
+After going through all the questions, a custom readme file generated from the responses will be saved at /generated_readmes/
+
+
+A video guide that explains the installation and usage is provided below:
 
 [![An embedded video that walks the user through the installation and usage of this package](http://img.youtube.com/vi/DhZHQYmI3Dk/0.jpg)](http://www.youtube.com/watch?v=DhZHQYmI3Dk "ReadMe Generator walkthrough")
 
