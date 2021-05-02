@@ -82,7 +82,7 @@ function init()
     .prompt(prompts)
     .then((data) => {
         let markdownContent = generateMarkdown(data);
-        writeToFile("./sample_readmes/readme.md", markdownContent);
+        writeToFile("./generated_readmes/readme.md", markdownContent);
     });
 
 }
