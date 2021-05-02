@@ -35,8 +35,7 @@ This project is free and open to use and modify for anyone that requires it
 
 A video guide that explains the installation and usage can is provided below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DhZHQYmI3Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![An embedded video that walks the user through the installation and usage of this package](http://img.youtube.com/vi/DhZHQYmI3Dk/0.jpg)](http://www.youtube.com/watch?v=DhZHQYmI3Dk "ReadMe Generator walkthrough")
 
 ## Constribution Guidelines <a name="contributing"></a>
 
