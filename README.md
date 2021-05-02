@@ -33,6 +33,11 @@ Clone the github repository and use npm install package.json to install the nece
 
 This project is free and open to use and modify for anyone that requires it
 
+A video guide that explains the installation and usage can is provided below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DhZHQYmI3Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Constribution Guidelines <a name="contributing"></a>
 
 
