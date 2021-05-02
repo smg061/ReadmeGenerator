@@ -1,22 +1,11 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require("inquirer")
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-const questions = [
-    "What is the name of the project?", 
-    "Provide a description of the project",
-    "What are the installation instructions? ", 
-    "Choose a license for this project",
-    "Describe the usage guidelines of this project",
-    "Describe the contribution guidelines for this project",
-    "Describe the instructions to test this program",
-    "What is your github username?",
-    "What is an email where users can contact you for questions"
-]
+// questions for the prompt
 
-
+// licenses to choose from during the prompt
 const licenses = [
     "None", 
     "Apache License 2.0",
@@ -28,51 +17,52 @@ const licenses = [
     "Unlicense"
 ];
 
+// prompts to be used in the program
 const prompts = [{
     type: 'input',
     name: "title",
-    message: questions[0],
+    message: "What is the name of the project?",
 },
 {
     type: 'input',
     name: "projectDescription",
-    message: questions[1],
+    message: "Provide a description of the project",
 },
 {
     type: 'input',
     name: "instructions",
-    message: questions[2],
+    message: "What are the installation instructions? ",
 },
 {
     type:"list",
     name: "license",
-    message: questions[3],
+    message: "Choose a license for this project",
     choices: licenses,
 },
 {
     type: 'input',
     name: "usage",
-    message: questions[4]
+    message: "Describe the usage guidelines of this project"
 },
 {
     type: 'input',
     name: "contribution",
-    message: questions[5]
+    message: "Describe the contribution guidelines for this project"
 },
 {
     type: 'input',
     name: "testing",
-    message: questions[6]
+    message:"Describe the instructions to test this program"
 },
 {
     type: 'input',
     name: "github",
-    message: questions[7]
+    message: "What is your github username?"
 },
 {
     type: 'input',
     name: "email",
-    message: questions[8]
+    message: "Provide an email where users can contact you for questions"
 }];
 
 

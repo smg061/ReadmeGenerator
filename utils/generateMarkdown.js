@@ -60,7 +60,6 @@ My Github profile can be found [here](https://github.com/${data.github}).
 You can reach me at: ${data.email}
 ## License <a name="license"></a>\n ${licenseSectionContent}
 `.trim();
-
     return content;
 }
 
@@ -70,7 +69,6 @@ function generateTableofContents()
 `Table of Contents\n
 * [Installation](#installation)\n
 * [Usage](#usage)\n
-* [License](#license)\n
 * [Contributing Guidelines](#contributing)\n
 * [Testing Instructions](#tests)\n
 * [Questions](#questions)\n
