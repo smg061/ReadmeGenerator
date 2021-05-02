@@ -76,8 +76,8 @@ const licenses = [
         type: "Creative Commons",
         badge: "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
         licenseText: `
-        The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
-        You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.`
+        The person who associated a work with this deed has dedicated the work to the public domain\nby waiving all of his or her rights\n to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+        You can copy, modify, distribute and perform the work, even for commercial purposes,\nall without asking permission. See Other Information below.`
     },
     {
         type: "Unlicense",
@@ -112,7 +112,7 @@ const licenses = [
         type: "Mozilla Public License",
         badge: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
         licenseText: `
-        This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file,You can obtain one at https://mozilla.org/MPL/2.0/.`
+        This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.\nIf a copy of the MPL was not distributed with this file,You can obtain one at https://mozilla.org/MPL/2.0/.`
     },
 
 ];
