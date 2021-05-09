@@ -47,7 +47,7 @@ After going through all the questions ```Successfully generated readme.md```  sh
 
 A video guide that explains the installation and usage is provided below:
 
-[![An embedded video that walks the user through the installation and usage of this package](http://img.youtube.com/vi/DhZHQYmI3Dk/0.jpg)](http://www.youtube.com/watch?v=DhZHQYmI3Dk "ReadMe Generator walkthrough")
+[![An embedded video that walks the user through the installation and usage of this package](http://img.youtube.com/vi/DhZHQYmI3Dk/0.jpg)](https://www.youtube.com/watch?v=ggEAsEdNjp8 "ReadMe Generator walkthrough")
 
 ## Constribution Guidelines <a name="contributing"></a>
 
